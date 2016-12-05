@@ -1,0 +1,256 @@
+@import url(font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Satisfy');
+@import url(//necolas.github.io/normalize.css/5.0.0/normalize.css);
+@import url(//meyerweb.com/eric/tools/css/reset/reset.css);
+@import url(grid.css);
+
+html{
+    height: 100%;
+}
+
+body{
+    margin: 2rem;
+    height: 100%;
+    font-size: 1rem;
+    color: gray;
+}
+
+/*h2, h3, h4{
+    font-weight: bold;
+}*/
+
+
+h2 {
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.6rem;
+}
+
+h4{
+    font-size: 1.2rem;
+}
+
+
+.logo{
+    position: relative;
+    display: block;
+    background-color: black;
+    color: white;
+    border-radius: 5rem;
+    height: 8rem;
+    width: 8rem;
+    text-align: center;
+    font-family: Pacifico, sans-serif;
+    margin: 2rem 2rem 2rem 0;
+}
+
+.logo h2{
+    position: absolute;
+    right: 0;
+    top: 2rem;
+    font-size: 1.8rem;
+}
+
+h2 sup{
+    font-size: 0.8rem;
+}
+
+.community h4{
+    border-bottom: 0.1rem dotted grey;
+    padding-bottom: 0.5rem;
+}
+
+.community button{
+    margin: 1rem 0 1rem 0;
+    color:deepskyblue;
+    background: white;
+    border: 0.1rem solid grey;
+    border-radius: 0.3rem;
+    padding: 0.3rem;
+
+}
+
+.community button:hover{
+    background:#EFFBFB;
+    color: red;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+}
+
+.menu{
+    line-height: 1.8rem;
+}
+
+
+.menu a{
+    color:deepskyblue;
+    font-style: italic;
+}
+
+a i{
+    color:black;
+    padding-right: 1rem;
+}
+
+.menu a i:hover{
+    padding-left: 1rem;
+}
+
+.menu a:hover{
+    color: red;
+}
+
+/*.menu :hover i*/
+
+.slider {
+    height: 30rem;
+    position: relative;
+}
+
+.slider section {
+    display: none;
+}
+
+img{
+    /*background-size: cover;
+    background-repeat: no-repeat;*/
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/*section a{
+    position: absolute;
+    right: 0rem;
+    top: 18rem;
+}*/
+
+section h2{
+    background: white;
+    color: black;
+    padding: 1.2rem;
+    position: absolute;
+    right: 0rem;
+    top: 18rem;
+}
+
+section p{
+    background:black;
+    color:white;
+    padding: 1.2rem;
+    position: absolute;
+    right: 0rem;
+    top: 21.3rem;
+}
+
+
+.slider .active {
+    display: block;
+}
+
+
+/*.slider-menu {
+    display: block;
+}*/
+
+.slider-menu li{
+    float: left;
+    display: inline;
+    padding: 2rem 0.5rem 2rem 0.5rem;
+    margin: 0 0.1rem 0 0.1rem;
+    background:#EFFBFB; 
+
+}
+
+.slider-menu li a:hover{
+    color: red;
+}
+
+/*.slider-menu a{
+    background:#EFFBFB; 
+}*/
+
+
+.img1{
+    background-image: url("/img/cookbooks_blog.jpg");
+}
+
+.img2{
+    background-image: url("/img/SweetPotatoChips.jpg");
+}
+
+.img3{
+    background-image: url("/img/Pinterest_Page_featured.png");
+}
+
+.img4{
+    background-image: url("/img/Adithi_Dinner_blog.jpg");
+}
+
+.img1, .img2, .img3, .img4{
+    background-repeat: no-repeat;
+    height: 10rem;
+}
+
+.text{
+    line-height: 1.5rem;
+}
+
+.text .col-lg-2, .text .col-5{
+    padding-top: 1.5rem;
+}
+
+.text h4, .text a{
+     color: deepskyblue;
+}
+
+.text a:hover{
+    color:red;
+}
+
+
+.email{
+    float: right;
+    padding: 1rem;
+    border-bottom: 0.1rem dotted grey;
+    border-top: 0.1rem dotted grey;
+}
+
+.social{
+    font-size: 2rem;
+    float: right;
+}
+
+.social a:hover{
+    color:black;
+}
+
+footer{
+     border-top: 0.1rem solid grey;
+     padding-top: 2rem; 
+}
+
+footer nav{
+    padding-bottom: 2rem;
+}
+
+footer nav a:hover{
+    color:red;
+}
+
+footer li{
+    display: inline;
+}
+
+footer nav li{
+    padding: 0 0.5rem 0 0.5rem;
+    border-right: 0.1rem solid grey;
+}
+
